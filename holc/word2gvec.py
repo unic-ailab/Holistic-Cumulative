@@ -2,7 +2,7 @@ import os
 import nltk
 import json
 import numpy as np
-os.chdir( os.environ['USERPROFILE']+'/downloads/holc')
+os.chdir( os.environ['USERPROFILE']+'/downloads/Holistic-Cumulative-main/holc')
 from configs import Config
 config = Config()
 import tf_glove

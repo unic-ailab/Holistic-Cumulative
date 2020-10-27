@@ -6,7 +6,7 @@ from tensorflow.contrib.tensorboard.plugins import projector
 import json
 
 def trainWordVectors(sentences):
-    os.chdir(os.environ['USERPROFILE'] +'/downloads/holc')
+    os.chdir(os.environ['USERPROFILE'] +'/downloads/Holistic-Cumulative-main/holc')
     from configs import Config
     # load model parameters
     config = Config()

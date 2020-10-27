@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 import os
-os.chdir( os.environ['USERPROFILE']+'/downloads/holc')
+os.chdir( os.environ['USERPROFILE']+'/downloads/Holistic-Cumulative-main/holc')
 from configs import Config
 config = Config()
 

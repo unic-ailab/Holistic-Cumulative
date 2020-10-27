@@ -5,8 +5,8 @@ import json
 import os
 
 ''' https://fasttext.cc/docs/en/english-vectors.html '''
-if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/holc/embeddings/crawl-300d-2M-subword.zip")):
-    path_to_glove = os.environ['USERPROFILE'] + "/downloads/holc/embeddings/crawl-300d-2M-subword.zip"
+if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/crawl-300d-2M-subword.zip")):
+    path_to_glove = os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/crawl-300d-2M-subword.zip"
     
 GLOVE_SIZE = 300
 

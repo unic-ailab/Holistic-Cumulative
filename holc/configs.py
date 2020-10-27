@@ -5,8 +5,8 @@ class Config():
     filename_train    = 'SST.xlsx'
     presetDataset     =  True # preset train/test splits true setting requires text file with splits.
     rootFolder        =  os.environ['USERPROFILE']
-    model_env        =   rootFolder + '/downloads/holc/'
-    pathToDatasets    =  '/downloads/holc/datasets/'
+    model_env        =   rootFolder + '/downloads/Holistic-Cumulative-main/holc/'
+    pathToDatasets    =  '/downloads/Holistic-Cumulative-main/holc/datasets/'
     dataset           =  str(filename_train[0:len(filename_train)-5]).lower()
 
     ''' set training parameters '''

@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold
 
 ''' local folder to load scripts and libraries ''' 
-os.chdir(os.environ['USERPROFILE'] +'/downloads/holc')
+os.chdir(os.environ['USERPROFILE'] +'/downloads/Holistic-Cumulative-main/holc')
 from configs import Config
 from holc_model import holcModel
 import data_helper

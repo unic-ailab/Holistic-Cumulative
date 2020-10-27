@@ -430,7 +430,7 @@ def _run_sentence_document_mode_pre_stage(fl_name, rmv_stop_wrds,n_classes,datas
         fl_name= fl_name[0:len(fl_name)-4] + '.csv'
         data_x,data_y = load_csv_data(fl_name,n_classes)  
     else :
-        os.chdir(os.environ['USERPROFILE'] +'/downloads/holc/datasets')
+        os.chdir(os.environ['USERPROFILE'] +'/downloads/Holistic-Cumulative-main/holc/datasets')
         data_x,data_y = load_data(fl_name,n_classes)  
         
     print('calculating ' + dataset_base + ' values...')
@@ -442,7 +442,7 @@ def _run_sentence_document_mode_pre_stage(fl_name, rmv_stop_wrds,n_classes,datas
     _vocab = get_index2word_map(_)
     
     if domain_op_words:
-        os.chdir(os.environ['USERPROFILE'] +'/downloads/holc/domain_words')
+        os.chdir(os.environ['USERPROFILE'] +'/downloads/Holistic-Cumulative-main/holc/domain_words')
         domain_op_words_file = open("domain_opinion_aware_words.txt", "r")
         domain_words=[]
         for line in domain_op_words_file:
@@ -502,7 +502,7 @@ def _run_sentence_document_mode(fl_name, max_seqlen, max_opinionlen,rmv_stop_wrd
         fl_name= fl_name[0:len(fl_name)-4] + '.csv'
         data_x,data_y = load_csv_data(fl_name,n_classes)  
     else :
-        os.chdir(os.environ['USERPROFILE'] +'/downloads/holc/datasets')
+        os.chdir(os.environ['USERPROFILE'] +'/downloads/Holistic-Cumulative-main/holc/datasets')
         data_x,data_y = load_data(fl_name,n_classes)
         
     print('converting to sequences...')

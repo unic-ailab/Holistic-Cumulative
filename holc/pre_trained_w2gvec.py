@@ -7,18 +7,18 @@ import os
 ''' https://nlp.stanford.edu/projects/glove/ '''
 def glovepath(size):
     if size==300:
-        if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/holc/embeddings/glove.840B.300d.zip")):
-            path_to_glove = os.environ['USERPROFILE'] + "/downloads/holc/embeddings/glove.840B.300d.zip"
+        if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/glove.840B.300d.zip")):
+            path_to_glove = os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/glove.840B.300d.zip"
             glovefile = 'glove.840B.300d.txt'
             GLOVE_SIZE = 300
     elif size == 200:
-        if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/holc/embeddings/glove.6B.zip")):
-            path_to_glove = os.environ['USERPROFILE'] + "/downloads/holc/embeddings/glove.6B.zip"
+        if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/glove.6B.zip")):
+            path_to_glove = os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/glove.6B.zip"
             glovefile = 'glove.6B.200d.txt'
             GLOVE_SIZE = 200
     elif size ==100:
-        if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/holc/embeddings/glove.6B.zip")):
-            path_to_glove = os.environ['USERPROFILE'] + "/downloads/holc/embeddings/glove.6B.zip"
+        if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/glove.6B.zip")):
+            path_to_glove = os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/glove.6B.zip"
             glovefile = 'glove.6B.100d.txt'
             GLOVE_SIZE = 100
     return path_to_glove,glovefile,GLOVE_SIZE

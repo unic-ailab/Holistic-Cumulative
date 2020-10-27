@@ -4,8 +4,8 @@ import logging
 import json
 import os
 ''' https://github.com/howardhsu/Amazon-Review-Embedding '''
-if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/holc/embeddings/amazon_300d/amazon_300d.vec")):
-    path_to_glove = os.environ['USERPROFILE'] + "/downloads/holc/embeddings/amazon_300d/"
+if(os.path.isfile(os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/amazon_300d/amazon_300d.vec")):
+    path_to_glove = os.environ['USERPROFILE'] + "/downloads/Holistic-Cumulative-main/holc/embeddings/amazon_300d/"
 
     
 GLOVE_SIZE = 300

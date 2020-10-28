@@ -5,8 +5,8 @@ import collections
 
 class calcMetric(object):
     
-    def calcDropout(train_acc,test_acc,base_dropout,_count):
-        overfit_factor = train_acc-test_acc
+    def calcDropout(train_acc,dev_acc,base_dropout,_count):
+        overfit_factor = train_acc-dev_acc
         if   overfit_factor > 0.25:
             _count +=4
             return 1-base_dropout * 0.5,_count

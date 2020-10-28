@@ -11,7 +11,7 @@ class Config():
 
     ''' set training parameters '''
     train_embeddings  =  False # set true, if model will finetune word embeddings
-    pre_trained_embs  =  False # set false, if pre-trained embeddings will be used
+    pre_trained_embs  =  False # set true, if pre-trained embeddings will be used
     train_w2vec       =  False # set true, if model will train first skip gram vectors
     train_glove       =  False # set true, if model will train first global vectors
     rmv_stop_wrds     =  False # set true, if stop words will be removed at preprocessing

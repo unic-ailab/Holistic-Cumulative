@@ -26,8 +26,8 @@ class Config():
     n_heads           =  1 # num of parallel processings for attention layer
     n_stacks          =  2 # num of layers for attention module
     dim_word          =  300 # dimension of word embeddings dimension
-    kfold_num         =  5 # num of iteration in the k-fold setting
-    display_step      =  10 # the num of training iterations to present training info
+    kfold_num         =  5 # num of iterations in the k-fold setting
+    display_step      =  10 # the num of training iterations to dsplay console training info 
     test_eval_batch   =  2000 # the number of batch test data to apply in the evaluation loop for preventing memory issues. If enough memory, use a number greater than test size data.
     overfit_threshold =  200 # relates to overfit iterations
     percent_noise     =  0.00 # add noise to data

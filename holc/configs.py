@@ -37,7 +37,7 @@ class Config():
     n_classes         =  5 #  the num of classes to train the model
     n_hidden          =  125 # the num of neurons for blstm, attention and classical layer.
 
-    balancing_factor  =  0.00 # the balancing factor, values range in [0,1] valid steps 0.25
+    balancing_factor  =  0.00 # the balancing factor, values range in [0,1] valid values [0, 0.25, 0.5, .75, 1]
     num_feature_maps  =  128 # the num of feature maps for convolution layers
     filter_sizes      =  [3,2] # the convolution filter sizes
     top_k             =  6 # the num of top-k values to extract from the convolution layers

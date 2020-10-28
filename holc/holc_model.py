@@ -35,7 +35,7 @@ class holcModel():
 
         self.l2_regul_conv = config.l2_regul_conv
 
-        self.L = 1 # the number of attention stack layers
+        self.L = 1 # the total number of convolution depth layers
 
         self.k_top = config.top_k # the number of top-k max pooling
 

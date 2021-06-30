@@ -1,1 +1,1 @@
-# Balancing between Holistic and Cumulative Sentiment Classifcation
+# Balancing between Holistic and Cumulative Sentiment Classification

@@ -39,7 +39,8 @@ When using the code-base please use the following reference to cite our work:<br
   <li>sklearn version: '0.19.0'</li>
   <li>nltk version: '3.2.4'</li>
   
-## License
+
+    ## License
 The framework is open-sourced under the Apache 2.0 License base. The codebase of the framework is maintained by the authors for academic research and is therefore provided "as is".
   
   

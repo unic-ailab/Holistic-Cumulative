@@ -9,6 +9,14 @@
   
 <div><p>1: The code-base is set to run without additional path settings, if it is downloaded and placed at the downloads folder </p></div>
   <div><p>2: The embeddings folder must contain the <a href="https://fasttext.cc/docs/en/english-vectors.html">crawl-300d-2M-subword.zip</a>   </p> </div>
+  
+ <ul>
+  <li>tensorflow version: '1.12.0' </li>
+  <li>numpy version: '1.16.1'</li>
+  <li>sklearn version: '0.19.0'</li>
+  <li>nltk version: '3.2.4'</li>
+ 
+ </div>
 
 </body>
 </html>

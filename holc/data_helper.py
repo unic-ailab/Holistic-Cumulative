@@ -408,7 +408,7 @@ def next_batch(num, data, labels,seqlens,_has_seqns,op_lens):
         return np.asarray(data_shuffle), np.asarray(labels_shuffle)
 
 def read_preset_dataset_idxs(filename,n_classes):
-    os.chdir(os.environ['USERPROFILE'] +'/downloads/holc/datasets')
+    os.chdir(os.environ['USERPROFILE'] +'/downloads/Holistic-Cumulative-main/holc/datasets')
     if n_classes==2:
         _filename = (filename[0:len(filename)-5]) + "b.txt"
     else :

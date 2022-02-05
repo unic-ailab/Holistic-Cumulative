@@ -30,8 +30,9 @@ When using the code-base please use the following reference to cite our work:<br
    
 3: The "configs.py" file, includes the hyperparameters for training the model.<br/>
 4: The embeddings folder must contain the <a href="https://fasttext.cc/docs/en/english-vectors.html">crawl-300d-2M-subword.zip</a> <br/>
-5: The train_holc.py is the main file to load & train the model.
+5: The train_holc.py is the main file to load & train the model.<br/>
 
+  
   ## Requirements
   <ul>
   <li>tensorflow version: '1.12.0' </li>
@@ -39,7 +40,7 @@ When using the code-base please use the following reference to cite our work:<br
   <li>sklearn version: '0.19.0'</li>
   <li>nltk version: '3.2.4'</li>
   
-
+<div>
     ## License
 The framework is open-sourced under the Apache 2.0 License base. The codebase of the framework is maintained by the authors for academic research and is therefore provided "as is".
   

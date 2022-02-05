@@ -29,8 +29,8 @@ When using the code-base please use the following reference to cite our work:<br
    - for many classes text classification, simply place the labels at the corresponding column.<br/>
    
 3: The "configs.py" file, includes the hyperparameters for training the model.<br/>
-4: The embeddings folder must contain the <a href="https://fasttext.cc/docs/en/english-vectors.html">crawl-300d-2M-subword.zip</a> 
-4: The train_holc.py is the main file to load & train the model.
+4: The embeddings folder must contain the <a href="https://fasttext.cc/docs/en/english-vectors.html">crawl-300d-2M-subword.zip</a> <br/>
+5: The train_holc.py is the main file to load & train the model.
 
   ## Requirements
   <ul>

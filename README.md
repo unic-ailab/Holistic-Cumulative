@@ -15,7 +15,7 @@ Code repo for paper titled 'Balancing between Holistic and Cumulative Sentiment 
 
   ## Reference
 When using the code-base please use the following reference to cite our work:<br/>
-[to be placed when issued]. DOI:
+DOI: <a href="https://doi.org/10.1016/j.osnem.2022.100199">10.1016/j.osnem.2022.100199</a>   
 
   ## How to run the model
 1: The code-base is set to run without additional path settings, if it is downloaded and placed at the downloads folder <br/>

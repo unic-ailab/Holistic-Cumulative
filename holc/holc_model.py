@@ -77,7 +77,7 @@ class holcModel():
             # Linear projections
             Q = tf.layers.dense(queries, num_units, activation=tf.nn.relu)
             K = tf.layers.dense(keys, num_units, activation=tf.nn.relu)
-            V = tf.layers.dense(keys, num_units, activation=tf.nn.relu)
+            V = tf.layers.dense(values, num_units, activation=tf.nn.relu)
 
             # Split and concat
             Q_ = tf.concat(tf.split(Q, num_heads, axis=2), axis=0)
